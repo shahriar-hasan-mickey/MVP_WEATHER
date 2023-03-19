@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements MainActivityView{
     private List<String> convertToListOfCityName(List<City> cityList){
         ArrayList<String> cityNameList = new ArrayList<>();
         for (City city : cityList){
-            cityNameList.add(city.getName());
+            cityNameList.add(city.name);
         }
         return cityNameList;
     }
